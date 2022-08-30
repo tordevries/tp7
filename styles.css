@@ -84,18 +84,6 @@ body {
 #recipeColumns div#equipment { flex-basis: 20%; }
 #recipeColumns div#directions { flex-basis: 50%; }
 
-/* hide the columns at first */
-#recipeColumns #ingredients ul,
-#recipeColumns #equipment ul,
-#recipeColumns #directions ol { 
-	display: none;
-}
-
-#recipeColumns #ingredients.tpShow ul,
-#recipeColumns #equipment.tpShow ul,
-#recipeColumns #directions.tpShow ol {
-	display: block;
-}
 
 /* reduce the left-hand padding of the list items */
 #recipeColumns ul,
